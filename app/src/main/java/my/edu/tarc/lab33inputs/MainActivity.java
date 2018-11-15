@@ -148,4 +148,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
     }
+    public void btnSet_OnClick(View view){
+        spinnerAge.setVerticalScrollbarPosition(0);
+        checkBoxSmoker.setChecked(false);
+        radioGroupGender.setSelected(false);
+    }
+
 }
